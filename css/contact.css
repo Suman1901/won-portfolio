@@ -1,0 +1,147 @@
+.project-heading{
+    padding: 14vh 0;
+}
+.locationIcon{
+    width: 26px;
+    height: 26px;
+}
+.lets-tals{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: -webkit-xxx-large;
+    padding-bottom: 6vh;
+}
+.lets-tals span{
+    color: var(--highlight-color) !important;
+}
+
+.queary-form input{
+    display: block;
+    background: no-repeat;
+    margin-bottom: 2rem;
+    border: 1px solid var(--highlight-color);
+    border-radius: 5px;
+    padding: 0.6rem;
+    width: 100%;
+}
+.boxOfContact{
+    background: #030d117d;
+    padding: 4rem 2.8rem;
+    box-shadow: 1px 1px 5px 0 var(--highlight-color);
+    border-radius: 10px;
+
+}
+.boxOfContact p{
+    width: 30vw;
+    line-height: normal;
+    color: var(--graytone-color) !important;
+}
+.queary-form .submitBtn{
+    width: 43%;
+    color: black !important;
+    padding: 0.5rem;
+    border-radius: 14px;
+    background: var(--highlight-color);
+    border: none;
+    font-family: var(--btn-font);
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    height: 3rem;
+    margin-top: 2rem;
+}
+.queary-form label{
+    text-transform: capitalize;
+    font-weight: 500;
+    padding-bottom: 0.3rem;
+}
+.rightArrowIcon{
+    width: 40px;
+    height: 40px;
+}
+#userMessage{
+    width: 100%;
+    background: none;
+    border: 1px solid var(--highlight-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.infarmation{
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: x-large;
+}
+.informatioon .contact-types{
+    padding-bottom: 1.5rem;
+}
+.contact-socialIcons{
+    margin: 0.3rem 0;
+}
+.follow-text{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 1rem;
+}
+.socialIcon{
+    padding-right: 1rem;
+}
+
+@media screen and (min-width:992px){
+
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .project-heading {
+        padding: 11vh 0;
+    }
+    .queary-form .submitBtn{
+        font-size: 2vw;
+    }
+    .boxOfContact{
+        padding: 3rem 1.8rem;
+    }
+    .boxOfContact p{
+        width: auto;
+        margin-bottom: 2rem !important;
+    }
+
+}
+
+
+@media screen and (min-width:200px) and (max-width:575px){
+    .project-heading{
+        padding: 5vh 0;
+    }
+    .lets-tals{
+        font-size: x-large;
+        padding-bottom: 2vh;
+    }
+    .infarmation, .follow-text{
+        font-size: larger;
+        margin-bottom: 0.6rem;
+    }
+    .locationIcon, .emailIcon, .phoneIcon{
+        width: 20px;
+        height: 20px;
+        margin-right: 0.3rem;
+    }
+    .informatioon .contact-types{
+        padding-bottom: 0.3rem;
+    }
+    .informatioon .contact-types span{
+        font-size: 0.9rem;
+    }
+    .boxOfContact{
+        padding: 2rem 1.2rem;
+    }
+    .boxOfContact p{
+        width: auto;
+        padding-bottom: 1.4rem !important;
+        font-size: 0.9rem;
+    }
+    .queary-form input{
+        margin-bottom: 1.1rem;
+    }
+    .queary-form .submitBtn{
+        font-size: 3vw;
+    }
+}

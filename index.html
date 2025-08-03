@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>suman portfolio</title>
+    <!-- bootstrap css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Aos animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css" />
+
+    <!-- mantresart font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <section id="banner" class="container-fluid">
+      <div class="container">
+        <header id="header" class="position-sticky top-0">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container nav-container">
+              <a class="brand-name" href="#">
+                <span class="logo-highlight">Web</span>Craft</a
+              >
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="">
+                  <i class="fa-solid fa-bars-staggered"></i>
+                </span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul
+                  class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
+                  style="--bs-scroll-height: 100px"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-capitalize"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="http://127.0.0.1:3000/project.html"> projects </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-capitalize contact" href="http://127.0.0.1:3000/contact.html?full+name=&email+address=&phone+number=&message="
+                      >contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <div class="container">
+        <div
+          class="profile row justify-content-lg-between justify-content-sm-center"
+        >
+          <div class="col-lg-4 col-sm-12 col-12">
+            <div class="profile-img">
+            <img src="images/profile-photo.png" width="100%" alt="image" />
+            </div>
+          </div>
+          <div class="profile-details col-lg-7 col-sm-12 col-12">
+            <div class="won-details">
+              <h4 class="grit">Hello, I’m</h4>
+              <h1 class="name m-0">suman sahoo</h1>
+              <h3 class="our-describe">And I’m a Web designer</h3>
+              <p class="won-details">
+                As I navigate my educational journey, I am relentlessly pursuing
+                excellence in the web design.
+              </p>
+              <span class="social-icons d-flex justify-content-between">
+                <a href="">
+                  <svg class="colorLinkedinIcon">
+                    <use href="assets/icons.svg#color-linkedin-icon"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="colorGithubIcon">
+                    <use href="assets/icons.svg#color-github-icon"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="colorFacebookIcon">
+                    <use href="assets/icons.svg#color-facebook-icon"></use>
+                  </svg>
+                </a>
+                <a href="#">
+                  <svg class="colorInstagramIcon">
+                    <use href="assets/icons.svg#instagram-icon"></use>
+                  </svg>
+                </a>
+                
+              </span>
+              <div class="buttons mt-lg-5 mt-4">
+                <a class="button" href="http://127.0.0.1:3000/project.html">My Project</a>
+                <a class="button resume-btn" href="">My Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- main start -->
+    <main>
+      <!-- introduction of myself -->
+      <section class="introduction container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="intro-pointes">
+                <img
+                  src="images/point-icon.png"
+                  alt="icon"
+                  width=""
+                  class="point"
+                />
+                <span class="intro-types text-uppercase"
+                  >INTRODUCTION OF MYSELF</span
+                >
+              </div>
+              <h1 class="occupation">
+                I’M <span class="heighlight">Web designer</span>.
+              </h1>
+              <p class="sub-text">
+                I always creating meaningful designs that make a lasting impact,
+                My specialties website,UI and UX design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- projects sections -->
+      <section class="container-fluid">
+        <div class="container text-center">
+          <div class="my-projects">
+            <div class="intro-pointes">
+              <img
+                src="images/point-icon.png"
+                alt="icon"
+                width=""
+                class="point"
+              />
+              <span class="intro-types text-uppercase">My Projects</span>
+            </div>
+            <h3 class="explore-text text-start text-uppercase">
+              Let’s explore my projects
+            </h3>
+          </div>
+          <div class="container">
+            <div class="projects row justify-content-around pt-4 pt-lg-5 gy-5">
+              <div class="col-lg-3 col-sm-12">
+                <a href="https://lambent-salmiakki-25f7fe.netlify.app/">
+                <div data-aos="zoom-in-down" class="project netflix-project"></div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <a href="https://phenomenal-taiyaki-9e6bee.netlify.app/">
+                <div data-aos="zoom-in-down" class="project grabit-project"></div>
+                </a>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <a href="https://iridescent-sopapillas-55db4f.netlify.app/">
+                <div data-aos="zoom-in-down" class="project rejouice-project"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="button text-capitalize py-2 px-3 mt-4" type="button">
+            More projects
+          </button>
+        </div>
+      </section>
+
+      <!-- professional skills -->
+      <section class="container-fluid">
+        <div class="container">
+          <div class="intro-pointes project-heading my-skills">
+            <img
+              src="images/point-icon.png"
+              alt="icon"
+              width=""
+              class="point"
+            />
+            <span class="intro-types text-uppercase"
+              >professional skills of me</span
+            >
+          </div>
+          <h3 class="text-start explore-text text-uppercase">
+            language & software skills
+          </h3>
+          <div class="row text-center pt-5 gy-5">
+            <div class="col-lg-3 softwer-bg" data-aos="fade-down">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/javascript 2.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">javascript</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/javascript 2.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">javascript</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 softwer-bg" data-aos="fade-down">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/html logo 2.png"
+                        width="60"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">HTML</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/html logo 2.png"
+                        width="60"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">HTML</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-down">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/css logo 2.png"
+                        width="60"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">CSS</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/css logo 2.png"
+                        width="60"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">CSS</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-down">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/figma logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">figma</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/figma logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">figma</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-up">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/Word Press logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">wordpress</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/Word Press logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">wordpress</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-up">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/Bootstrap_logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">bootstrap</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/Bootstrap_logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">bootstrap</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-up">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/photoshop logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">photoshop</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/photoshop logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">photoshop</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 softwer-bg" data-aos="fade-up">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="softwer-skill flip-card-front">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/AI logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">Illustrator</p>
+                    </div>
+                  </div>
+                  <div class="softwer-skill flip-card-back">
+                    <div class="softwer-name">
+                      <img
+                        src="images/softwer logos/AI logo.png"
+                        width="50"
+                        alt="image"
+                      />
+                      <p class="text-capitalize">Illustrator</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- education & experiance -->
+      <section class="container-fluid education-sec">
+        <div class="container">
+          <div class="intro-pointes project-heading">
+            <img
+              src="images/point-icon.png"
+              alt="icon"
+              width=""
+              class="point"
+            />
+            <span class="intro-types text-uppercase"
+              >MY EDUCATION & experience</span
+            >
+          </div>
+          <div class="row wrapOfEducation pt-4 mx-3 gy-5">
+            <div class="col-lg-12 col-sm-12" data-aos="fade-right">
+              <div class="education">
+                <div class="date-img">
+                  <i class="fas fa-calendar-alt"></i>
+                  <p class="date">2023-2025</p>
+                </div>
+                <h5 class="nameOfEducation">Web design & development</h5>
+                <p class="nameOfEducationPlace">Arena animation</p>
+              </div>
+            </div>
+            <div class="col-lg-12" data-aos="fade-left">
+              <div class="education float-end">
+                <div class="date-img">
+                  <i class="fas fa-calendar-alt"></i>
+                  <p class="date">2017-2020</p>
+                </div>
+                <h5 class="nameOfEducation">Bachelor of Arts (BA)</h5>
+                <p class="nameOfEducationPlace">DCH College</p>
+              </div>
+            </div>
+            <div class="col-lg-12" data-aos="fade-right">
+              <div class="education">
+                <div class="date-img">
+                  <i class="fas fa-calendar-alt"></i>
+                  <p class="date">2015-2017</p>
+                </div>
+                <h5 class="nameOfEducation">Higher secoundery education</h5>
+                <p class="nameOfEducationPlace">
+                  SUNDARBAN ADARSHA VIDYAMANDIR
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-12" data-aos="fade-left">
+              <div class="education float-end">
+                <div class="date-img">
+                  <i class="fas fa-calendar-alt"></i>
+                  <p class="date">2015</p>
+                </div>
+                <h5 class="nameOfEducation">Secondery</h5>
+                <p class="nameOfEducationPlace">
+                  Thangara Satishchandra Vidyapith - H.S
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- get in tuch  -->
+      <section class="container-fluid get-in-tuch">
+        <div class="container">
+          <div class="row justify-content-between gy-5">
+            <div class="col-lg-6 col-sm-12 align-content-center">
+              <div class="getIntuch-sec">
+                <div class="intro-pointes project-heading">
+                  <img src="images/point-icon.png" alt="icon" class="point" />
+                  <span class="intro-types text-uppercase">get in touch</span>
+                </div>
+                <h3
+                  class="text-start work-together explore-text text-uppercase mt-4 mb-2"
+                >
+                  Let’s <span class="heighlight"> work </span> together
+                </h3>
+                <h4 class="available-heare">I’m available at</h4>
+                <div class="contact mb-2">
+                  <span>sumansa991@gmail.com</span>
+                </div>
+                <div class="contact">
+                  <span>+91 9083589382</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+              <div class="massage-box">
+                <div class="input-box" data-aos="fade-up">
+                  <input type="text" placeholder="Your Name" />
+                  <svg class="userIcon getInTuchIcon">
+                    <use href="assets/icons.svg#user-icon"></use>
+                  </svg>
+                </div>
+                <div class="input-box" data-aos="fade-up">
+                  <input type="text" placeholder="Email Address" />
+                  <svg class="emailIcon getInTuchIcon">
+                    <use href="assets/icons.svg#email-icon"></use>
+                  </svg>
+                </div>
+                <div class="input-box" data-aos="fade-up">
+                  <input type="text" placeholder="Phone Number" />
+                  <svg class="phoneIcon getInTuchIcon">
+                    <use href="assets/icons.svg#phone-icon"></use>
+                  </svg>
+                </div>
+                <div class="input-box position-relative" data-aos="fade-up">
+                  <textarea
+                    class="form-control comment-sec"
+                    id="exampleFormControlTextarea1"
+                    rows="4"
+                  ></textarea>
+                  <svg class="paneIcon getInTuchIcon position-absolute top-4">
+                    <use href="assets/icons.svg#pane-icon"></use>
+                  </svg>
+                </div>
+                <button
+                  class="send-btn fs-5 fw-medium"
+                  data-aos="fade-up"
+                  type="button"
+                >
+                  Send Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer start -->
+    <footer class="footer container-fluid">
+      <div class="container">
+        <div class="row text-center gy-3">
+          <div class="col-lg-4 align-content-center">
+            <p>Fronted developer, UI & UX designer</p>
+          </div>
+          <div class="col-lg-4 align-content-center">
+            <a class="brand-name" href="#">
+              <span class="logo-highlight">Web</span>Craft</a
+            >
+          </div>
+          <div class="col-lg-4 align-content-center">
+            <ul class="foot-details">
+              <li class="foot-point"><a href="">about</a></li>
+              <li class="line foot-point"></li>
+              <li class="foot-point"><a href="">project</a></li>
+              <li class="line foot-point"></li>
+              <li class="foot-point"><a href="">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="bottom-sec">
+      <div class="follow-box container max-container">
+        <div class="follow-sec align-items-center">
+          <span>Follow me :</span>
+          <svg class="linkedinIcon">
+            <use href="assets/icons.svg#linkedin-icon"></use>
+          </svg>
+          <svg class="facebookIcon">
+            <use href="assets/icons.svg#facebook-icon"></use>
+          </svg>
+          <svg class="githubIcon">
+            <use href="assets/icons.svg#github-icon"></use>
+          </svg>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- main js -->
+    <script src="js/script.js"></script>
+
+    <!-- Aos js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

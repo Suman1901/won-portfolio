@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: var(--textColor) !important;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+:root{
+    --textColor: white;
+    --highlight-color: #00A4FF;
+    --graytone-color: #A6A3A3;
+    --btn-font:"Poppins", sans-serif;
+    --bg-color: #041016;
+}
+p,ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body{
+    background: #03161F !important;
+}
+/* forIcons */
+.userIcon {
+    width: 27px;
+    height: 28px;
+    fill: #00a4ff;
+  }
+  .emailIcon {
+    width: 28px;
+    height: 29px;
+    fill: #00a4ff;
+  }
+  .phoneIcon{
+    width: 28px;
+    height: 29px;
+    fill: #00a4ff;
+  }
+  .paneIcon{
+    width: 22px;
+    height: 23px;
+  }
+  .linkedinIcon{
+    width: 28px;
+    height: 28px;
+  }
+  .facebookIcon{
+    width: 28px;
+    height: 28px;
+  }
+  .githubIcon{
+    width: 28px;
+    height: 28px;
+  }
+
+/* banner start  */
+
+#banner{
+    padding: 20px 0;
+    margin: 0;
+    box-shadow: 0px 0px 13px 0 var(--highlight-color);
+    background: #030d117d;
+}
+
+    /* header strat */
+.navbar{
+    background: var(--bg-color);
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 0 var(--highlight-color);
+}
+.nav-container{
+    padding: 0 2rem !important;
+}
+.brand-name{
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.container .logo-highlight{
+    color: var(--highlight-color) !important;
+}
+.nav-link{
+    padding-right: 1.5rem !important;
+    font-weight: 500 !important;
+}
+/* .nav-link.active{
+    color: var(--highlight-color) !important;
+} */
+.nav-link:focus{
+    color: var(--highlight-color) !important;
+}
+.nav-link.contact{
+    padding-right: 0 !important;
+}
+.buttons:first-child{
+    margin: 1.3rem 0.5rem 0 0 !important;
+}
+.fa-solid.fa-bars-staggered{
+    width: 28px;
+}
+.profile-details .won-details{
+    margin: 2rem 0 !important;
+    color: var(--graytone-color) !important;
+    width: 80%;
+}
+
+    /* header last  */
+
+.profile .profile-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#banner .profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.profile-details .grit{
+    color: var(--graytone-color) !important;
+
+}
+.profile-details .name{
+    color: var(--highlight-color) !important;
+    font-size: 4.9rem;
+    font-weight: 600;
+}
+.profile-details .our-describe{
+    font-size: 2.1rem;
+}
+
+.social-icons{
+    margin: 2rem 0;
+    width: 23%;
+}
+.colorLinkedinIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.colorFacebookIcon{
+    width: 30px;
+    height: 30px;
+}
+.colorInstagramIcon{
+    width: 24px;
+    height: 24px;
+}
+.colorGithubIcon{
+    width: 30px;
+    height: 30px;
+}
+.resume-btn{
+    margin-left: 1rem;
+}
+.button {
+    background: none;
+    padding: 7px 16px;
+    border: 1px solid #00A4FF;
+    border-radius: 5px;
+    color: #00A4FF !important;
+    transition: all ease-in-out 0.2s;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-weight: 500;
+}
+.button{
+    text-decoration: none;
+    color: #00A4FF !important;
+    transition: all ease-in-out 0.2s;
+}
+
+.button::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00A4FF;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+    transform: scaleX(0);
+    transform-origin: left;
+    z-index: -1;
+}
+
+.button:hover::after {
+    transform: scaleX(1);
+}
+
+.button:hover{
+    color: white !important;
+    transition: all ease-in-out 0.2s;
+}
+
+
+/* banner end  */
+
+
+/* introduction of myself */
+.container-fluid{
+    margin: 6rem 0 3rem 0;
+}
+.intro-pointes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.intro-pointes .intro-types{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--highlight-color) !important;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.intro-pointes .point{
+    transform: rotate(45deg);
+}
+.introduction .occupation{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.heighlight{
+    color: var(--highlight-color) !important;
+}
+.sub-text{
+    color: var(--graytone-color) !important;
+
+}
+
+
+/* projects sections */
+
+.explore-text{
+    font-size: 2.1rem;
+    font-weight: 400;
+}
+.projects .project{
+    height: 30rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.projects .netflix-project{
+    background-image: url(../images/netflix\ site.png);
+}
+.projects .grabit-project{
+    background-image: url(../images/grabit\ site.png);
+}
+.projects .rejouice-project{
+    background-image: url(../images/rejouice\ site.png);
+}
+.rejouice-project
+.buttons{
+    margin-top: 3.2rem;
+}
+.btn{
+    border: 1px solid var(--highlight-color);
+    color: var(--highlight-color) !important;
+    font-family: var(--btn-font);
+}
+
+
+
+
+/* professional skills  */
+
+.softwer-bg{
+    display: flex;
+    justify-content: center;
+}
+.softwer-skill{
+    height: 10rem;
+    background: var(--bg-color);
+    border-radius: 1rem;
+    width: 70%;
+    box-shadow: 1px 1px 3px 0 var(--highlight-color);
+    position: relative;
+}
+.softwer-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 70%;
+  height: 10rem;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/* education & experiance */
+
+.education .date-img{
+    display: flex;
+}
+.education .nameOfEducationPlace{
+    text-transform: uppercase;
+    color: var(--graytone-color) !important;
+}
+.education{
+    background: #041016;
+    width: 55%;
+    padding: 3rem 6rem;
+    border-radius: 129px;
+    box-shadow: 0px 2px 3px 0 var(--highlight-color);
+}
+.education .date-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+.date-img .fas.fa-calendar-alt{
+    color: var(--highlight-color) !important;
+}
+.wrapOfEducation{
+    flex-direction: column;
+}
+
+/* get in touch */
+
+.massage-box{
+    background: var(--bg-color);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    box-shadow: -1px 2px 4px 0 var(--highlight-color);
+    width: 100%;
+}
+.massage-box .input-box{
+    width: 100%;
+    border: 1px solid #80808066;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-box input{
+    width: 92%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#messageBox{
+    background: none;
+    border: none;
+    outline: none;
+}
+.paneIcon{
+    right: 17px;
+    top: 16px;
+}
+.send-btn{
+    background: var(--highlight-color);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    font-family: var(--btn-font);
+    transition: all ease-in-out 0.1s;
+}
+.send-btn:hover{
+    box-shadow: 0px 0px 13px 0 #2ca8fa;
+    transition: all ease-in-out 0.3s;
+}
+.send-btn:active{
+    scale: 0.9;
+}
+.work-together{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.comment-sec{
+    background: none;
+    border: none;
+}
+.form-control:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* footer  */
+.footer{
+    background: var(--bg-color);
+    margin-bottom: 0;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+}
+.foot-details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+.foot-point{
+    list-style: none;
+}
+.foot-point a{
+    text-decoration: none;
+}
+.line{
+    width: 1px;
+    height: 25px;
+    background: var(--highlight-color);
+}
+.bottom-sec{
+    border-top: 1px solid var(--highlight-color);
+    background: var(--bg-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.follow-sec{
+    float: inline-end;
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

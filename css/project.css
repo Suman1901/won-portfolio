@@ -1,0 +1,75 @@
+
+.project-heading{
+    font-family: var(--btn-font);
+    padding: 14vh 0 !important;
+    font-size: 3vw;
+}
+.template{
+    height: 40vh;
+}
+.template img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.project{
+    justify-content: space-between;
+    align-items: center;
+}
+.project-details h6{
+    color: var(--highlight-color) !important;
+    text-transform: capitalize;
+}
+.project-details .site-name{
+    font-size: 3vw;
+    padding: 1.2rem 0;
+}
+.project-details .project-sub-taitle{
+    color: var(--graytone-color) !important;
+}
+.project-details a{
+    text-decoration: none;
+}
+.rejouice-project{
+    flex-direction: row-reverse;
+    padding-top: 7vh;
+}
+.netflix-project{
+    padding-top: 7vh;
+}
+
+
+@media screen and (min-width:992px){
+
+}
+@media screen and (min-width:576px) and (max-width:991px){
+    .project-heading{
+        padding: 9vh 0 !important;
+        font-size: 4.5vw;
+    }
+    .project-details{
+        margin-top: 2rem;
+    }
+    .project-details .site-name{
+        padding: 0;
+    }
+}
+@media screen and (min-width:200px) and (max-width:575px){
+    .project-heading{
+        padding: 6vh 0 !important;
+        font-size: 6vw;
+    }
+    .project-details{
+        margin-top: 1.5rem;
+    }
+    .project-details .site-name {
+        font-size: 4vw;
+        padding: 0.1rem 0;
+    }
+    .project-details .project-sub-taitle{
+        line-height: 14px;
+        font-size: 0.8rem;
+    }
+
+}

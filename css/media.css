@@ -1,0 +1,143 @@
+@media screen and (min-width:992px){
+    .getInTuchIcon{
+        width: 22px;
+    }
+    .input-box input{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:991px){
+    /* banner */
+    #banner .profile{
+        margin: 3rem 0;
+        flex-direction: column-reverse;
+    }
+    .profile-img{
+        width: 75%;
+        margin-top: 2rem;
+    }
+    .profile-details .won-details{
+        width: auto;
+    }
+    .profile-details .name{
+        font-size: 9vw;
+    }
+    .profile-details .our-describe {
+        font-size: 3vw;
+    }
+
+    /* introduction of myself */
+    .introduction .occupation{
+        font-size: 8.5vw;
+    }
+
+    .won-details{
+        margin: auto ;
+    }
+    .education{
+        width: 100%;
+        padding: 2rem 4rem;
+    }
+    .follow-sec{
+        min-width: 40%;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:575px){
+    /* banner  */
+    #banner .profile{
+        flex-direction: column-reverse;
+    }
+    .profile-details .name{
+        font-size: 2.6rem;
+    }
+    .profile-details .our-describe{
+        font-size: 1.1rem;
+    }
+    .social-icons{
+        margin: 1rem 0;
+        width: 40%;
+    }
+    .profile-details .won-details{
+        margin-bottom: 1rem !important;
+        width: auto;
+    }
+    #banner .profile{
+        margin: 0;
+    }
+
+    .input-box input{
+        width: 85%;
+    }
+    .follow-sec{
+        width: auto;
+    }
+    .resume-btn{
+        margin-top: 1rem;
+    }
+    .container-fluid {
+        margin: 5rem 0 3rem 0;
+    }
+
+
+    /* introduction of myself */
+
+    .intro-pointes .intro-types{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .introduction .occupation{
+        font-size: 2rem;
+    }
+    .explore-text{
+        font-size: 1.3rem;
+    }
+
+    /* education and experiance */
+    .education{
+        width: 100%;
+        padding: 1rem 2rem;
+        border-radius: 55px;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nameOfEducation{
+        font-size: 5vw;
+    }
+    .nameOfEducationPlace{
+        font-size: 3vw;
+    }
+
+    .profile .profile-img{
+        margin-top: 3rem;
+    }
+    .massage-box{
+        padding: 2rem 1rem;
+    }
+
+    /* get in tuch  */
+    .send-btn{
+        font-size: 1rem !important;
+    }
+    .getInTuchIcon{
+        display: none;
+    }
+
+    /* footer  */
+    .footer{
+        padding: 20px 0;
+        height: auto;
+        margin: 4rem 0 0 0 ;
+    }
+    .follow-sec span{
+        margin-right: 0.3rem;
+    }
+    .linkedinIcon, .facebookIcon, .githubIcon {
+        width: 20px;
+        height: 20px;
+        margin-right: 0.3rem;
+    }
+}
