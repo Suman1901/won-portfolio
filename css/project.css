@@ -1,7 +1,7 @@
 
 .project-heading{
     font-family: var(--btn-font);
-    padding: 14vh 0 !important;
+    padding: 25vh 0 10vh !important;
     font-size: 3vw;
 }
 .template{
@@ -33,7 +33,7 @@
 }
 .rejouice-project{
     flex-direction: row-reverse;
-    padding-top: 7vh;
+    padding-top: 10vh;
 }
 .netflix-project{
     padding-top: 7vh;

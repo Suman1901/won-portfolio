@@ -45,55 +45,55 @@
   </head>
   <body>
     <!-- header  -->
-    <header class="container heading-sec pt-4">
-      <header id="header" class="position-sticky top-0">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container nav-container">
-            <a class="brand-name" href="index.html">
-              <span class="logo-highlight">Web</span>Craft</a
+    <header id="header" class="top-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container nav-container">
+          <a class="brand-name" href="index.html">
+            <span class="logo-highlight">Web</span>Craft</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="">
+              <i class="fa-solid fa-bars-staggered"></i>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
+              style="--bs-scroll-height: 100px"
             >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="">
-                <i class="fa-solid fa-bars-staggered"></i>
-              </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul
-                class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
-                style="--bs-scroll-height: 100px"
-              >
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-capitalize active"
-                    aria-current="page"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-capitalize" href="#">about</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-capitalize" href="project.html"> projects </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-capitalize contact" href="contact.html"
-                    >contact</a
-                  >
-                </li>
-              </ul>
-            </div>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-capitalize"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="project.html">
+                  projects
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize contact" href="contact.html"
+                  >contact</a
+                >
+              </li>
+            </ul>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
     </header>
     <!-- main  -->
     <main>
@@ -102,7 +102,9 @@
         <div class="row gy-5">
           <div class="col-lg-6">
             <div class="informatioon">
-              <h1 class="lets-tals">Let's talk for your <span> next mission </span></h1>
+              <h1 class="lets-tals">
+                Let's talk for your <span> next mission </span>
+              </h1>
               <h5 class="infarmation">Info</h5>
               <div class="location contact-types">
                 <svg class="locationIcon">
@@ -123,50 +125,71 @@
                 <span>9083589382</span>
               </div>
               <h5 class="follow-text">Follow me</h5>
-              <span class="social-icons contact-socialIcons d-flex justify-content-between">
-                <a href="" class="socialIcon">
+              <div class="social-icons d-flex justify-content-between">
+                <a href="https://www.linkedin.com/in/suman-sahoo-b84913331">
                   <svg class="colorLinkedinIcon">
                     <use href="assets/icons.svg#color-linkedin-icon"></use>
                   </svg>
                 </a>
-                <a href="" class="socialIcon"> 
+                <a href="https://github.com/Suman1901">
                   <svg class="colorGithubIcon">
                     <use href="assets/icons.svg#color-github-icon"></use>
                   </svg>
                 </a>
-                <a href="#" class="socialIcon">
+                <a href="https://www.facebook.com/suman.sahoo.965580">
                   <svg class="colorFacebookIcon">
                     <use href="assets/icons.svg#color-facebook-icon"></use>
                   </svg>
                 </a>
-                <a href="#" class="socialIcon">
+                <a href="https://www.instagram.com/suman.sahoo.965580?igsh=MWtybTk3ZGlnYms3aA==">
                   <svg class="colorInstagramIcon">
                     <use href="assets/icons.svg#instagram-icon"></use>
                   </svg>
                 </a>
-              </span>
+                
+              </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="boxOfContact">
               <p class="pb-lg-5">
-                Feel free to contact any time. I will get back to you as
-                soon as we can!
+                Feel free to contact any time. I will get back to you as soon as
+                we can!
               </p>
               <form action="" class="queary-form">
-                <label for="">Full name <span class="must-fill-icon">*</span></label>
-                <input type="text" name="fullName" placeholder="Name"/>
+                <label for=""
+                  >Full name <span class="must-fill-icon">*</span></label
+                >
+                <input type="text" name="fullName" placeholder="Name" />
 
-                <label for="">email address <span class="must-fill-icon">*</span></label>
+                <label for=""
+                  >email address <span class="must-fill-icon">*</span></label
+                >
                 <input type="email" name="email address" placeholder="Email" />
 
-                <label for="">phone number <span class="must-fill-icon">*</span></label>
+                <label for=""
+                  >phone number <span class="must-fill-icon">*</span></label
+                >
                 <input type="number" name="phone number" placeholder="Number" />
 
-                <label for="">textarea <span class="must-fill-icon">*</span></label>
-                <textarea name="message" id="userMessage" rows="4" placeholder="write message...."></textarea>
+                <label for=""
+                  >textarea <span class="must-fill-icon">*</span></label
+                >
+                <textarea
+                  name="message"
+                  id="userMessage"
+                  rows="4"
+                  placeholder="write message...."
+                ></textarea>
 
-                <button type="submit" class="submitBtn d-flex align-items-center justify-content-center">Send message<svg class="rightArrowIcon"> <use href="assets/icons.svg#right-arrow-icon"></use> </svg> </button>
+                <button
+                  type="submit"
+                  class="submitBtn d-flex align-items-center justify-content-center"
+                >
+                  Send message<svg class="rightArrowIcon">
+                    <use href="assets/icons.svg#right-arrow-icon"></use>
+                  </svg>
+                </button>
               </form>
             </div>
           </div>
@@ -180,7 +203,7 @@
         <div class="row text-center gy-3">
           <div class="col-lg-4 col-12 align-content-center">
             <div class="pastation">
-            <p>Fronted developer, UI & UX designer</p>
+              <p>Fronted developer, UI & UX designer</p>
             </div>
           </div>
           <div class="col-lg-4 col-12 align-content-center">
