@@ -51,70 +51,75 @@
 
     <!-- header start -->
     <section id="banner" class="container-fluid">
-
-        <header id="header" class="top-0">
-          <nav class="navbar navbar-expand-lg">
-            <div class="container nav-container">
-              <a class="brand-name" href="index.html">
-                <span class="logo-highlight">Web</span>Craft</a
+      <header id="header" class="top-0">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container nav-container">
+            <a class="brand-name" href="index.html">
+              <span class="logo-highlight">Web</span>Craft
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="">
+                <i class="fa-solid fa-bars-staggered"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul
+                class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
+                style="--bs-scroll-height: 100px"
               >
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="">
-                  <i class="fa-solid fa-bars-staggered"></i>
-                </span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul
-                  class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll nav-menus"
-                  style="--bs-scroll-height: 100px"
-                >
-                  <li class="nav-item">
-                    <a
-                      class="nav-link text-capitalize"
-                      aria-current="page"
-                      href="index.html"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="#">about</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-capitalize" href="project.html"> projects </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-capitalize contact" href="contact.html"
-                      >contact</a
-                    >
-                  </li>
-                </ul>
-              </div>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-capitalize"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-capitalize" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-capitalize" href="project.html">
+                    projects
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-capitalize contact"
+                    href="contact.html"
+                    >contact</a
+                  >
+                </li>
+              </ul>
             </div>
-          </nav>
-        </header>
+          </div>
+        </nav>
+      </header>
 
       <div class="container">
         <div
           class="profile row justify-content-lg-between justify-content-sm-center"
         >
-          <div class="col-lg-4 col-sm-12 col-12">
+          <div class="profil-e-img col-lg-4 col-sm-12 col-12">
             <div class="profile-img">
-            <img src="images/profile-photo.png" width="100%" alt="image" />
+              <img src="images/profile-photo.png" width="100%" alt="image" />
             </div>
           </div>
           <div class="profile-details col-lg-7 col-sm-12 col-12">
             <div class="won-details">
               <h4 class="grit">Hello, I’m</h4>
               <h1 class="name m-0">
-                <span>s</span><span>u</span><span>m</span><span>a</span><span>n</span> <span>s</span><span>a</span><span>h</span><span>o</span><span>o</span>
+                <span>s</span><span>u</span><span>m</span><span>a</span
+                ><span>n</span> <span>s</span><span>a</span><span>h</span
+                ><span>o</span><span>o</span>
               </h1>
               <h3 class="our-describe">And I’m a Web designer</h3>
               <p class="won-details">
@@ -137,16 +142,17 @@
                     <use href="assets/icons.svg#color-facebook-icon"></use>
                   </svg>
                 </a>
-                <a href="https://www.instagram.com/suman.sahoo.965580?igsh=MWtybTk3ZGlnYms3aA==">
+                <a
+                  href="https://www.instagram.com/suman.sahoo.965580?igsh=MWtybTk3ZGlnYms3aA=="
+                >
                   <svg class="colorInstagramIcon">
                     <use href="assets/icons.svg#instagram-icon"></use>
                   </svg>
                 </a>
-                
               </div>
               <!-- <div class="buttons mt-lg-4 mt-4"> -->
-                <!-- <a class="button" href="project.html">My Project</a> -->
-                <a class="button resume-btn m-0" href="">My Resume</a>
+              <!-- <a class="button" href="project.html">My Project</a> -->
+              <a class="button resume-btn m-0" href="">My Resume</a>
               <!-- </div> -->
             </div>
           </div>
@@ -203,20 +209,28 @@
           </div>
           <div class="container">
             <div class="projects row justify-content-around pt-4 pt-lg-5 gy-5">
-              
               <div class="col-lg-3 col-sm-12">
                 <a href="https://phenomenal-taiyaki-9e6bee.netlify.app/">
-                <div data-aos="zoom-in-down" class="project grabit-project"></div>
+                  <div
+                    data-aos="zoom-in-down"
+                    class="project grabit-project"
+                  ></div>
                 </a>
               </div>
               <div class="col-lg-3 col-sm-12">
                 <a href="https://iridescent-sopapillas-55db4f.netlify.app/">
-                <div data-aos="zoom-in-down" class="project rejouice-project"></div>
+                  <div
+                    data-aos="zoom-in-down"
+                    class="project rejouice-project"
+                  ></div>
                 </a>
               </div>
               <div class="col-lg-3 col-sm-12">
                 <a href="https://lambent-salmiakki-25f7fe.netlify.app/">
-                <div data-aos="zoom-in-down" class="project netflix-project"></div>
+                  <div
+                    data-aos="zoom-in-down"
+                    class="project netflix-project"
+                  ></div>
                 </a>
               </div>
             </div>
@@ -592,8 +606,8 @@
     <!-- footer start -->
     <footer class="footer container-fluid">
       <div class="container">
-        <div class="row text-center gy-3">
-          <div class="col-lg-4 align-content-center">
+        <div class="row text-center gy-3 justify-content-between">
+          <div class="col-lg-3 align-content-center">
             <p>Fronted developer, UI & UX designer</p>
           </div>
           <div class="col-lg-4 align-content-center">
@@ -617,15 +631,21 @@
       <div class="follow-box container max-container">
         <div class="follow-sec align-items-center">
           <span>Follow me :</span>
-          <svg class="linkedinIcon">
-            <use href="assets/icons.svg#linkedin-icon"></use>
-          </svg>
-          <svg class="facebookIcon">
-            <use href="assets/icons.svg#facebook-icon"></use>
-          </svg>
-          <svg class="githubIcon">
-            <use href="assets/icons.svg#github-icon"></use>
-          </svg>
+          <a href="https://www.linkedin.com/in/suman-sahoo-b84913331">
+            <svg class="linkedinIcon">
+              <use href="assets/icons.svg#linkedin-icon"></use>
+            </svg>
+          </a>
+          <a href="https://github.com/Suman1901">
+            <svg class="githubIcon">
+              <use href="assets/icons.svg#github-icon"></use>
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/suman.sahoo.965580">
+            <svg class="facebookIcon">
+              <use href="assets/icons.svg#facebook-icon"></use>
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

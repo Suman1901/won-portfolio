@@ -28,6 +28,20 @@ function loader(){
         display: "none"
     })
 }
-
 loader()
 
+function changeMenuColor(){
+    let menus = document.querySelectorAll(".navbar-nav .nav-item a");
+    
+    menus.forEach((link)=>{
+        link.addEventListener("click", ()=>{
+            menus.forEach((list) =>{
+                list.classList.add("active");   
+                console.log(link)
+            })
+            // this.classList ="active";
+        })
+    })
+    
+}
+changeMenuColor()

@@ -5,10 +5,17 @@
     .input-box input{
         width: 90%;
     }
+    .profile-details .won-details{
+        width: auto;
+    }
+
 }
 
 @media screen and (min-width:576px) and (max-width:991px){
     /* banner */
+    #banner{
+        height: auto;
+    }
     #banner .profile{
         margin: 3rem 0;
         flex-direction: column-reverse;
@@ -16,6 +23,9 @@
     .profile-img{
         width: 75%;
         margin-top: 2rem;
+    }
+    .profile-details{
+        margin-top: 3vh;
     }
     .profile-details .won-details{
         width: auto;
@@ -25,6 +35,12 @@
     }
     .profile-details .our-describe {
         font-size: 3vw;
+    }
+    .profile .profil-e-img{
+        width: auto;
+    }
+    .profile-details .name span{
+        font-size: 3.9rem;
     }
 
     /* introduction of myself */
@@ -46,11 +62,17 @@
 
 @media screen and (min-width:200px) and (max-width:575px){
     /* banner  */
+    #banner{
+        height: auto;
+    }
+    .profile-details{
+        margin-top: 11vh;
+    }
     #banner .profile{
         flex-direction: column-reverse;
     }
-    .profile-details .name{
-        font-size: 2.6rem;
+    .profile-details .name span{
+        font-size: 3.9rem;
     }
     .profile-details .our-describe{
         font-size: 1.1rem;

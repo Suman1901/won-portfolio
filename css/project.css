@@ -1,7 +1,14 @@
-
+#banner{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    box-shadow: none;
+}
 .project-heading{
     font-family: var(--btn-font);
-    padding: 25vh 0 10vh !important;
+    padding: 18vh 0 10vh !important;
     font-size: 3vw;
 }
 .template{
@@ -45,7 +52,7 @@
 }
 @media screen and (min-width:576px) and (max-width:991px){
     .project-heading{
-        padding: 9vh 0 !important;
+        padding: 16vh 0 8vh !important;
         font-size: 4.5vw;
     }
     .project-details{
@@ -57,7 +64,7 @@
 }
 @media screen and (min-width:200px) and (max-width:575px){
     .project-heading{
-        padding: 6vh 0 !important;
+        padding: 16vh 0 7vh !important;
         font-size: 6vw;
     }
     .project-details{
